@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Responsive meta tag -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <title>Kayone's To-Do List</title>
+    
+    <style>  /* style CSS goes here------------- */
+    .maincontainer {
+        padding: 2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }   
+    #btnAdd{
+            background-color:  rgb(149, 78, 114);
+            color: #fff;
+        }
+    .deleteButton {
+     display: inline-block;
+    margin: 12px;
+    }
+    </style>
+
+</head>
+
+<body>
+<div  class="maincontainer"><!---------------- main div starts -->
+
+    <h1> To Do List</h1>        
+    <div>
+            <ul id="faves"> <!----Show an unordered list of to-do items-->
+                <li>Wake up & Get Ready 5:30AM</li>
+                <li>Commute 6:30AM</li>
+                <li>Class in Session 8AM</li>
+                <li>Lunch 12PM</li>
+                <li>Class Ends & Commute Home 5PM</li>
+                <li>Continue Assignments & Review</li>
+            </ul>
+            <br>
+            <input type="text" id="add" size ="50"/> <!-----Show an unordered list of to-do items---->
+            <input type="button" id="btnAdd" value="Add More" onclick="addItem()"> <!-----Show a button to add a to-do. See JS for functions-add to end of list---->
+    </div>
+
+        
+</div>  <!------------------------- main div ends -->
+
+<br>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="todolist.js"></script>
+</body>
+</html>
