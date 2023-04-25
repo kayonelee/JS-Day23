@@ -27,4 +27,4 @@ function playRound(player1, player2) {  // ---Defining the Function called playR
         console.log("It's a tie");  // ----log that it is a tie
         return winner;
 
-      } else if (                   // ---else
+      } else if (                   // ---else....
