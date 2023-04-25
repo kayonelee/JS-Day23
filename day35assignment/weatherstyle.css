@@ -1,0 +1,137 @@
+
+body {
+	background: #b1a4a4d0;
+	background-image: url('image/backgroundimage.jpeg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+	
+
+}
+
+.error {
+    font-size: 30px;
+    display: none;
+    
+    }
+.maincontainer {
+	width: 100%;
+	max-width: 500px;
+	background: #b1a4a4d0;
+	color: white;;
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+	border-radius: 15px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 3rem;
+}
+
+.search input {
+	background: rgba(255, 255, 255, 0.58);
+	color: black;
+	padding: 5px 10px;
+	height: 50px;;
+	border-radius: 15px;
+	flex:1;
+	margin-right: 10px;
+	border: none;
+	outline: none;
+
+	font-size: 20px;
+}
+
+.search button {
+	background: rgba(255, 255, 255, 0.58);;
+	padding: 5px;
+	height: 50px;;
+	border-radius: 50px;
+	width: 50px;
+	cursor: pointer;
+}
+
+.search button img {
+	width: 40px;
+
+}
+
+.imageIcon {
+	height: 300px;
+	margin-top: 0;
+	margin-bottom: 0%;
+	padding: 0;
+}
+
+.city {
+	margin-top: -60px;
+	color: rgba(255, 255, 255, 0.58);
+}
+
+.temperatureHigh {
+	margin-top: 50px;
+	
+}
+
+.temperatureCurrent {
+	color:black;
+}
+
+.weather h1 {
+	font-size: 40px;
+	margin-top: 20px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+
+}
+
+.weather h2 {
+	font-size: 20px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+	font-weight: 600;
+}
+
+.info {
+	display: flex;
+	align-items: center;;
+	justify-content: center;
+	margin-top: 15px;
+    
+}
+
+.wfh {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+.wfh img {
+	width: 40px;
+	margin-right: 10px;
+}
+
+.humidity, .windSpeed {
+	font-size: 30px;
+	color:whitesmoke;
+}
+
+.feelsLike {
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+.currentDay, .currentYear {
+	color:whitesmoke;
+}
+
+.weather {
+	display: none;
+}
+

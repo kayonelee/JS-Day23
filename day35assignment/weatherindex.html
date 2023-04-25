@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<link rel="stylesheet" href="weatherstyle.css">
+	<script src="https://api.openweathermap.org/data/2.5/weather?zip=28273,US&appid=126a213e098da1dd31e6508d685e5df1&units=imperial"></script>
+	<title>Weather App-KL</title>
+</head>
+
+<body>
+	<div class="maincontainer">
+		<div class="search">
+			<input type="text" placeholder=" Zip Code ">
+			<button><img src="image/searchicon.png"></button>
+		</div>
+
+		<div class="error">
+			<p  style="color:rgba(202, 31, 31, 0.58);">Invalid Zip Code</p>
+		</div>
+		<div class="weather">
+			<img src="iconicon.png" class="imageIcon">
+			<h2 class="city">Charlotte</h2>
+			<h2 class="temperatureHigh">High: 61°F</h2>
+			<h1 class="temperatureCurrent">Currently: 58°F</h1>
+			<h2 class="temperatureLow">Low: 55°F</h2>
+            <br>
+            <hr>
+			<h2 class="currentDay">Monday</h2>
+			<h2 class="currentYear">2023</h2>
+			<div class="info">
+				<div class="wfh">
+					<img src="image/wind.png" alt="wind">
+					<div>
+						<p class="windSpeed">12 mph</p>
+						<p  style="color: whitesmoke;">Wind</p>
+					</div>
+				</div>
+				<div class="wfh">
+                    <img src="image/feels.png" alt="feelslike">
+					<div>
+						<p class="feelsLike">56°F</p>
+						<p style="color:whitesmoke;">Feels Like</p>
+					</div>
+				</div>
+				<div class="wfh">
+					<img src="image/humid.png" alt="humidity">
+					<div>
+						<p class="humidity">40%</p>
+						<p style="color:whitesmoke;">Humid</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+	<script src="weatherscript.js"></script>
+</body>
+
+</html>
