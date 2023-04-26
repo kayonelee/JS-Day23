@@ -8,10 +8,10 @@ $(document).ready(function() {
     let emailInput = $('#email');
     let phoneInput = $('#phone');
     
-    //Utilize a for loop to iterate of the entire required array
+    // array
     let required =[nameInput,emailInput,phoneInput]
     let hasWarnings = false;
-
+    // Utilize a for loop to iterate of the entire required array
     for (let i = 0; i< required.length; i++){
     $('label[for="' + $(required[i]).attr('id') + '"]').removeClass('warning')
     if(required[i].val()===""){
@@ -24,7 +24,7 @@ $(document).ready(function() {
    
     if(!hasWarnings){
         $("form").css({display: "none"});
-        $("h2").html("Thank you");
+        $("h2").html("Thanks for your feedback!");
         }
         });
     
