@@ -15,7 +15,7 @@ $(document).ready(function() {
     for (let i = 0; i< required.length; i++){
     $('label[for="' + $(required[i]).attr('id') + '"]').removeClass('warning')
     if(required[i].val()===""){
-        $('#message').html("Please fill out the required fields").addClass('warning');  // populate the message p with the following text:, add the warning class to this message
+        $('#message').html("Please Fill Out Required Fields").addClass('warning');  // populate the message p with the following text:, add the warning class to this message
         $('label[for="' + $(required[i]).attr('id') + '"]').addClass('warning')
         hasWarnings = true;
     }
